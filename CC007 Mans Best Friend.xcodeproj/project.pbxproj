@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		1CA86B971B1449AD00FCF40A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA86B961B1449AD00FCF40A /* main.m */; };
 		1CA86B9A1B1449AD00FCF40A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA86B991B1449AD00FCF40A /* AppDelegate.m */; };
-		1CA86B9D1B1449AD00FCF40A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA86B9C1B1449AD00FCF40A /* ViewController.m */; };
 		1CA86BA01B1449AD00FCF40A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA86B9E1B1449AD00FCF40A /* Main.storyboard */; };
 		1CA86BA21B1449AD00FCF40A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA86BA11B1449AD00FCF40A /* Images.xcassets */; };
 		1CA86BA51B1449AD00FCF40A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA86BA31B1449AD00FCF40A /* LaunchScreen.xib */; };
 		1CA86BB11B1449AD00FCF40A /* CC007_Mans_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA86BB01B1449AD00FCF40A /* CC007_Mans_Best_FriendTests.m */; };
+		1CA86BBC1B144A6600FCF40A /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA86BBB1B144A6600FCF40A /* MBFDog.m */; };
+		1CA86BBF1B144A8200FCF40A /* MBFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA86BBE1B144A8200FCF40A /* MBFViewController.m */; };
+		1CA86BC71B14783C00FCF40A /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1CA86BC21B14783C00FCF40A /* St.Bernard.JPG */; };
+		1CA86BC81B14783C00FCF40A /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CA86BC31B14783C00FCF40A /* Bo.jpg */; };
+		1CA86BC91B14783C00FCF40A /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CA86BC41B14783C00FCF40A /* ItalianGreyhound.jpg */; };
+		1CA86BCA1B14783C00FCF40A /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CA86BC51B14783C00FCF40A /* JRT.jpg */; };
+		1CA86BCB1B14783C00FCF40A /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CA86BC61B14783C00FCF40A /* BorderCollie.jpg */; };
+		1CA86BCE1B148AC200FCF40A /* MBFPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA86BCD1B148AC200FCF40A /* MBFPuppy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,23 @@
 		1CA86B961B1449AD00FCF40A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CA86B981B1449AD00FCF40A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CA86B991B1449AD00FCF40A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1CA86B9B1B1449AD00FCF40A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1CA86B9C1B1449AD00FCF40A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1CA86B9F1B1449AD00FCF40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CA86BA11B1449AD00FCF40A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1CA86BA41B1449AD00FCF40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1CA86BAA1B1449AD00FCF40A /* CC007 Mans Best FriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CC007 Mans Best FriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA86BAF1B1449AD00FCF40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CA86BB01B1449AD00FCF40A /* CC007_Mans_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CC007_Mans_Best_FriendTests.m; sourceTree = "<group>"; };
+		1CA86BBA1B144A6600FCF40A /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		1CA86BBB1B144A6600FCF40A /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
+		1CA86BBD1B144A8200FCF40A /* MBFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFViewController.h; path = ../MBFViewController.h; sourceTree = "<group>"; };
+		1CA86BBE1B144A8200FCF40A /* MBFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFViewController.m; path = ../MBFViewController.m; sourceTree = "<group>"; };
+		1CA86BC21B14783C00FCF40A /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		1CA86BC31B14783C00FCF40A /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		1CA86BC41B14783C00FCF40A /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		1CA86BC51B14783C00FCF40A /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		1CA86BC61B14783C00FCF40A /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		1CA86BCC1B148AC200FCF40A /* MBFPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPuppy.h; sourceTree = "<group>"; };
+		1CA86BCD1B148AC200FCF40A /* MBFPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPuppy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +99,12 @@
 			children = (
 				1CA86B981B1449AD00FCF40A /* AppDelegate.h */,
 				1CA86B991B1449AD00FCF40A /* AppDelegate.m */,
-				1CA86B9B1B1449AD00FCF40A /* ViewController.h */,
-				1CA86B9C1B1449AD00FCF40A /* ViewController.m */,
+				1CA86BBD1B144A8200FCF40A /* MBFViewController.h */,
+				1CA86BBE1B144A8200FCF40A /* MBFViewController.m */,
+				1CA86BBA1B144A6600FCF40A /* MBFDog.h */,
+				1CA86BBB1B144A6600FCF40A /* MBFDog.m */,
+				1CA86BCC1B148AC200FCF40A /* MBFPuppy.h */,
+				1CA86BCD1B148AC200FCF40A /* MBFPuppy.m */,
 				1CA86B9E1B1449AD00FCF40A /* Main.storyboard */,
 				1CA86BA11B1449AD00FCF40A /* Images.xcassets */,
 				1CA86BA31B1449AD00FCF40A /* LaunchScreen.xib */,
@@ -96,6 +116,11 @@
 		1CA86B941B1449AD00FCF40A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1CA86BC21B14783C00FCF40A /* St.Bernard.JPG */,
+				1CA86BC31B14783C00FCF40A /* Bo.jpg */,
+				1CA86BC41B14783C00FCF40A /* ItalianGreyhound.jpg */,
+				1CA86BC51B14783C00FCF40A /* JRT.jpg */,
+				1CA86BC61B14783C00FCF40A /* BorderCollie.jpg */,
 				1CA86B951B1449AD00FCF40A /* Info.plist */,
 				1CA86B961B1449AD00FCF40A /* main.m */,
 			);
@@ -199,9 +224,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA86BC81B14783C00FCF40A /* Bo.jpg in Resources */,
+				1CA86BC71B14783C00FCF40A /* St.Bernard.JPG in Resources */,
 				1CA86BA01B1449AD00FCF40A /* Main.storyboard in Resources */,
 				1CA86BA51B1449AD00FCF40A /* LaunchScreen.xib in Resources */,
 				1CA86BA21B1449AD00FCF40A /* Images.xcassets in Resources */,
+				1CA86BCA1B14783C00FCF40A /* JRT.jpg in Resources */,
+				1CA86BC91B14783C00FCF40A /* ItalianGreyhound.jpg in Resources */,
+				1CA86BCB1B14783C00FCF40A /* BorderCollie.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA86B9D1B1449AD00FCF40A /* ViewController.m in Sources */,
 				1CA86B9A1B1449AD00FCF40A /* AppDelegate.m in Sources */,
+				1CA86BBC1B144A6600FCF40A /* MBFDog.m in Sources */,
+				1CA86BBF1B144A8200FCF40A /* MBFViewController.m in Sources */,
 				1CA86B971B1449AD00FCF40A /* main.m in Sources */,
+				1CA86BCE1B148AC200FCF40A /* MBFPuppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
